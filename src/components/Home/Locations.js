@@ -17,6 +17,7 @@ function Locations() {
              ))
          }
      </div>
+     <h2>Give us a visit, You are always welcome</h2>
     </StyledLocation>
 
   );

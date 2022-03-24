@@ -5,6 +5,7 @@ export const StyledLocation = styled.div`
   justify-content: space-between;
   flex-direction: column;
   background-color: var(--orange);
+  margin-top: 20px;
   .icon {
     color: var(--blue);
     font-size: 30px;
@@ -20,7 +21,13 @@ export const StyledLocation = styled.div`
   }
   div {
     display: flex;
-    justify-content:space-around ;
+    justify-content: space-around;
+  }
+  h2 {
+    text-align: center;
+    font-family: var(--Organo);
+    color: #fff;
+    margin: 10px;
   }
 `;
 export const StyledCard = styled.div`
@@ -35,9 +42,9 @@ export const StyledCard = styled.div`
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   background-color: white;
-  height: 340px ;
+  height: 340px;
   width: 240px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   div {
     width: 200px;
     height: 200px;
@@ -50,10 +57,13 @@ export const StyledCard = styled.div`
   h1 {
     color: var(--blue);
   }
-  .icon{
-      color: var(--pink) ;
+  p{
+    width:170px;
   }
-  &:hover{
-      transform: scale(1.05) ;
+  .icon {
+    color: var(--pink);
+  }
+  &:hover {
+    transform: scale(1.05);
   }
 `;
