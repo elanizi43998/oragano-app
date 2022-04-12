@@ -18,7 +18,7 @@ export const Logo = styled.img`
 `;
 
 export const StyledLink = styled.div`
-  width: 500px;
+  width: 600px;
   display: flex;
   justify-content: space-between;
 
@@ -36,12 +36,12 @@ export const StyledButton = styled.button`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   font-weight: 700;
-  background-color: #fff ;
-  transition: all .2s ease-in-out;
+  background-color: #fff;
+  transition: all 0.2s ease-in-out;
   font-family: var(--Organo);
   color: var(--orange);
   padding: 8px 30px;
-  &:hover{
-    transform: scale(1.02) ;
+  &:hover {
+    transform: scale(1.02);
   }
 `;
