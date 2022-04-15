@@ -9,6 +9,10 @@ export const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 760px) {
+    flex-direction: column;
+
+  }
 `;
 
 export const Logo = styled.img`
@@ -21,6 +25,11 @@ export const StyledLink = styled.div`
   width: 600px;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 760px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   a {
     font-family: var(--Organo);
@@ -28,6 +37,9 @@ export const StyledLink = styled.div`
     font-size: 1.5em;
     text-decoration: none;
     color: var(--yellow);
+    @media (max-width: 760px) {
+      margin: 10px;
+    }
   }
 `;
 export const StyledButton = styled.button`
@@ -44,4 +56,7 @@ export const StyledButton = styled.button`
   &:hover {
     transform: scale(1.02);
   }
+  @media (max-width: 760px) {
+      margin: 10px;
+    }
 `;

@@ -1,7 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container } from '../Container.styled';
-import { Logo, StyledHeader, StyledNav, StyledLink, StyledButton } from './Header.styled';
+import {
+  Logo,
+  StyledHeader,
+  StyledNav,
+  StyledLink,
+  StyledButton,
+} from './Header.styled';
 
 function Header() {
   return (

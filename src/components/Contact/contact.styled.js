@@ -9,25 +9,38 @@ export const StyledContact = styled.div`
   }
 `;
 export const ContactFormStyled = styled.div`
-  input {
-    width: 30em;
-  }
-  label {
-    margin-top: 5px;
+  div {
+    width: 320px;
+
+    input {
+      width: 300px;
+    }
+    label {
+      margin-top: 0;
+    }
   }
 
   div {
     display: flex;
     flex-direction: column;
-    label {
-      margin: 10px;
+    #lbl {
+      margin-bottom: 10px;
     }
     textarea {
       border: 1px solid lightgray;
       border-radius: 20px;
-      width: 100%;
+      width: 300px;
+      height: 120px;
       resize: none;
       padding: 1em;
     }
+  }
+  button {
+    width: 70%;
+  }
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `;
