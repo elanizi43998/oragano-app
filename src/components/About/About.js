@@ -30,6 +30,15 @@ function About() {
                 >
                   Contact me{' '}
                 </a>
+                <br />
+                GitHub repository:{' '}
+                <a
+                  href='https://github.com/elanizi43998/oragano-app'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Organo-app{' '}
+                </a>
               </p>
             </div>
           </StyledAbout>
