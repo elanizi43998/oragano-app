@@ -6,6 +6,7 @@ export const PaperContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 100%;
 `;
 export const Paper = styled.div`
   width: 70%;
@@ -17,11 +18,13 @@ export const Paper = styled.div`
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 30px;
   border-radius: 10px;
+  max-width: 100%;
   h1 {
     font-family: var(--Organo);
     color: var(--blue);
     text-align: center;
   }
+ 
 `;
 export const Input = styled.div`
   display: flex;
@@ -36,9 +39,15 @@ export const Input = styled.div`
     border-radius: 20px;
     padding: 10px;
   }
+  input:focus {
+    outline-color: var(--blue);
+  }
+  @media (max-width: 760px) {
+    width: 100%;
+  }
 `;
 export const LoginButton = styled.button`
-    cursor: pointer;
+  cursor: pointer;
   background-color: var(--orange);
   border-radius: 20px;
   border: none;
@@ -70,8 +79,8 @@ export const CreateAccount = styled.div`
   display: flex;
   align-items: center;
   margin: 0 auto;
-  span{
-      text-decoration: underline ;
-      color: var(--blue) ;
+  span {
+    text-decoration: underline;
+    color: var(--blue);
   }
 `;

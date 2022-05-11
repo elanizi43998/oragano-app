@@ -10,7 +10,7 @@ function Contact() {
     <PaperContainer>
       <Paper>
         <StyledContact>
-          <MainLoc/>
+          <MainLoc />
           <ContactForm />
         </StyledContact>
       </Paper>

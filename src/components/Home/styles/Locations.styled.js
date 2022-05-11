@@ -6,6 +6,7 @@ export const StyledLocation = styled.div`
   flex-direction: column;
   background-color: var(--orange);
   margin-top: 20px;
+  max-width: 100%;
   .icon {
     color: var(--blue);
     font-size: 30px;
@@ -28,6 +29,14 @@ export const StyledLocation = styled.div`
     font-family: var(--Organo);
     color: #fff;
     margin: 10px;
+  }
+  @media (max-width: 760px) {
+    justify-content: center;
+    align-items: center;
+    .card {
+      display: flex;
+      flex-direction: column;
+    }
   }
 `;
 export const StyledCard = styled.div`
@@ -57,8 +66,8 @@ export const StyledCard = styled.div`
   h1 {
     color: var(--blue);
   }
-  p{
-    width:170px;
+  p {
+    width: 170px;
   }
   .icon {
     color: var(--pink);

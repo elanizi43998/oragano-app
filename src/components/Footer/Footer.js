@@ -3,7 +3,6 @@ import { Container } from '../Container.styled';
 import { Logo, StyledHeader } from '../Header/Header.styled';
 import SocialMedia from './SocialMedia';
 import { Banner, StyledFooter } from './Styles/Footer.styled';
-import { FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
   return (

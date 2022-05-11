@@ -4,21 +4,19 @@ export const StyledContact = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1em;
+  max-width: 100%;
   div {
     padding: 10px;
   }
+  @media (max-width: 760px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 export const ContactFormStyled = styled.div`
-  div {
-    width: 320px;
-
-    input {
-      width: 300px;
-    }
-    label {
-      margin-top: 0;
-    }
-  }
+  /* @media (max-width: 760px) {
+    background-color: green;
+  } */
 
   div {
     display: flex;
@@ -33,6 +31,7 @@ export const ContactFormStyled = styled.div`
       height: 120px;
       resize: none;
       padding: 1em;
+      max-width: 96%;
     }
   }
   button {

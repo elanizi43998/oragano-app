@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 
 export const LocaStyled = styled.div`
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
   div {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 95%;
+    max-width: 100%;
+
     img {
       width: 100%;
       border-radius: 20px;

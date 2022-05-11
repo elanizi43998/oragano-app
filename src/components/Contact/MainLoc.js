@@ -9,7 +9,7 @@ function MainLoc() {
         <a
           href='https://www.google.com/maps/@25.1916859,55.2753289,309m/data=!3m1!1e3'
           target='_blank'
-          rel="noopener noreferrer"
+          rel='noopener noreferrer'
         >
           <img src='./images/cities/localisation.png' alt='' />
         </a>

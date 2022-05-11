@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        font-family: 'Fontype Rounded' ;
+        font-family: 'Fontype Rounded' ;   
     }
     
 `;

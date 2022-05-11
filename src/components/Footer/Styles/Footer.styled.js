@@ -15,6 +15,10 @@ export const StyledFooter = styled.footer`
     font-size: 20px;
     margin-bottom: 10px;
   }
+  @media (max-width: 760px) {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+  }
 `;
 
 export const StyledMedia = styled.div`
@@ -25,6 +29,10 @@ export const StyledMedia = styled.div`
   a {
     color: var(--pink);
     font-size: 30px;
+  }
+  @media (max-width: 760px) {
+    display: flex;
+    flex-direction: column;
   }
 `;
 export const Banner = styled.div`

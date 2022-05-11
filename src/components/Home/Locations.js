@@ -10,7 +10,7 @@ function Locations() {
       <h1>
         <BiCurrentLocation className='icon' /> Our locations
       </h1>
-     <div>
+     <div className='card'>
          {
              LoctionsDb.map((item, index)=>(
                 <Locationcard key={index} item={item}/>
