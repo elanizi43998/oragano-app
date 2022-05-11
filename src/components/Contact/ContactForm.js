@@ -24,7 +24,7 @@ function ContactForm() {
       </div>
       <span>
         <LoginButton type='submit' onClick={() => navigate('/')}>
-          <h2>Login</h2>
+          <h2>Send Message</h2>
         </LoginButton>
       </span>
     </ContactFormStyled>
