@@ -15,4 +15,4 @@ _Disclaimer: This an imaginary agency_
 > Icons: [React Incons](https://react-icons.github.io/react-icons/)
 
 ### Website link:
-- [Organo By NIZI](https://magenta-faun-01fb6b.netlify.app)
+- [Organo By NIZI](https://eclectic-daffodil-e68de0.netlify.app)
