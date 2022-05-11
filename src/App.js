@@ -1,11 +1,11 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { GlobalStyle } from './components/Global';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-import Login from './components/Index/Login';
+import Login from './components/Login/Login';
 function App() {
   return (
     <>

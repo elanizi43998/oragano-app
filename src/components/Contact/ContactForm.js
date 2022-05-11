@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Input, LoginButton } from '../Index/Login.Styled';
+import { Input, LoginButton } from '../Login/Login.Styled';
 import { ContactFormStyled } from './contact.styled';
 
 function ContactForm() {
